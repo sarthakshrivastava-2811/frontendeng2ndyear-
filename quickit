@@ -1,0 +1,196 @@
+//html//
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinket Header</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <br>
+    <header>
+        <div class="hearder-first">
+            <a href="#" class="logo">blink<span>it</span></a>
+
+            <div class="header-second">
+                <select id="choose">
+                    <option>Delivery in 8 minutes</option>
+                    <option>E-218</option>
+                    <option> Block ED</option>
+                    <option>New Ashok Nagar</option>
+                </select>
+            </div>
+
+            <div class="header-third">
+            <input type="text" placeholder="Search milk" class="in">
+            </div>
+            <div class="header-four">
+            <button class="bu">Login</button>
+            </div>
+            <div class="header-five"><button class="button">
+                <h3>My Cart</h3>
+                <img src="shopping.png" width="30px">
+            </button>
+        </div>
+    </div>
+    <div class="oneone">
+    <center>
+        <div class="six">
+            <img src="image1.png" width="2000px" height="600pxx">
+        </div>
+        </center>
+        <center>
+            <div class="seven">
+                <img src="image2.png" width="1200px" height="400px" >
+                <img src="image2.png" width="1200px" height="400px" >
+            </div>
+        </center>
+        <br>
+        <div id="eight">
+            <img src="image3.png" width="600px" height="300px"> 
+            <img src="image3.png" width="600px" height="300px"> 
+            <img src="image3.png" width="600px" height="300px"> 
+            <img src="image3.png" width="600px" height="300px">
+            <img src="image3.png" width="600px" height="300px"> 
+            <img src="image3.png" width="600px" height="300px"> 
+            <img src="image3.png" width="600px" height="300px"> 
+            <img src="image3.png" width="600px" height="300px"> 
+            <img src="image3.png" width="600px" height="300px"> 
+            <img src="image3.png" width="600px" height="300px"> 
+            <img src="image3.png" width="600px" height="300px"> 
+            <img src="image3.png" width="600px" height="300px"> 
+        </div>
+        <br>
+        <div class="nine">
+            <img src="image4.png" width="600" height="300px">
+            <img src="image4.png" width="600" height="300px">
+            <img src="image4.png" width="600" height="300px">
+            <img src="image4.png" width="600" height="300px">
+            <img src="image4.png" width="600" height="300px">
+            <img src="image4.png" width="600" height="300px">
+            <img src="image4.png" width="600" height="300px">
+            <img src="image4.png" width="600" height="300px">
+            <img src="image4.png" width="600" height="300px">
+
+            <img src="image4.png" width="600" height="300px">
+            <img src="image4.png" width="600" height="300px">
+        </div>
+        </div>
+
+
+        
+    </header>
+</body>
+</html>
+
+//css//
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #fff;
+      color: #1f1f1f;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background: #fff;
+    border-top: 3px solid #f8cb46;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    position:sticky;
+    top: 0px;
+}
+.hearder-first{
+    width: 1000px;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.logo{
+    width: 250px;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #0c831f;
+    text-indent: 60px;
+}
+.logo span{
+    color:yellow
+}
+.header-second{
+    width: 2000px;
+    text-indent: 25px;
+}
+#choose{
+    height: 40px;
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-indent: 25px;
+    font-size: 20px;
+}
+.header-third{
+    width: 1200px;
+}
+.in{
+    height: 50px;
+    width: 1200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-indent: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+}
+.header-third{
+    width: 1300px;
+}
+.bu{
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+}
+.header-five{
+    width: 1400px;
+    height: 40px;
+}
+.bu{
+    height: 60px;
+    width: 120px;
+    background-color:white;
+}
+.button{
+    height: 60px;
+    width: 130px;
+    position: absolute;
+    top: 15px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+#eight{
+    display: flex;
+    overflow-x: scroll;
+}
+.nine{
+    display: flex;
+    overflow-x:scroll;
+}
+
+
